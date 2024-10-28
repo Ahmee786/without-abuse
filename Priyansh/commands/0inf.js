@@ -24,23 +24,23 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/Kj2CmiZ.jpegv" , "https://i.imgur.com/yiNOiVU.jpeg","https://i.postimg.cc/Sx7Yk5D0/ef81664323554dd5c8f17f0826e26e5e.jpg","https://i.postimg.cc/DwqYrqPQ/b123e2cb78bcb4fa5dcb53dfdeed2611.jpg"];
+["https://imgur.com/a/AIYGbau.jpegv" , "https://imgur.com/a/bnjlRO7.jpeg","https://i.postimg.cc/DwqYrqPQ/b123e2cb78bcb4fa5dcb53dfdeed2611.jpg"];
 var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇵🇰𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇵🇰
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ ℤ𝔸̃𝕀̨ℕ̃ ℙℝ𝕀̨ℕ̃ℂ̧𝔼́💔🥀
+🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝘼𝙃𝙈𝘼𝘿 𝙃𝙊𝙊 𝙔𝘼𝙍💔🥀
 
-🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/profile.php?id=61566479789589💞🕊️
+🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/ahmadali.safdar.52💞🕊️
 
-👋For Any Kind Of Help Contact On Telegram  Username 👉@Zainijutt7 😇
+👋For Any Kind Of Help Contact On Telegram  Username 👉@ahmadalisafdar3 😇
 
 ✧══════•❁❀❁•══════✧
 
 🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝗭𝗔𝗜𝗡 𝗝𝗨𝗧𝗧
+♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝘼𝙃𝙈𝘼𝘿 𝙃𝙊𝙊 𝙔𝘼𝙍
 
 🥳UPTIME🥳
 
@@ -53,7 +53,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒𝕫𝕒𝕚𝕟 𝕡𝕣𝕚𝕟𝕔𝕖🌿✰✧✧✧✧✦🌸
+🌸✦✧✧✧✧✰🍒𝔸ℍ𝕄𝔸𝔻 ℍ𝕆𝕆 𝕐𝔸ℝ🌿✰✧✧✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
