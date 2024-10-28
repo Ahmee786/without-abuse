@@ -1,10 +1,10 @@
 module.exports.config = {
-	name: "info",
+	name: "botinfo",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-	description: "Admin and Bot info.",
-	commandCategory: "...",
+	credits: "Arun Kumar", //don't change the credits please
+	description: " Bot info.",
+	commandCategory: "system",
 	cooldowns: 1,
 	dependencies: 
 	{
@@ -22,41 +22,11 @@ const time = process.uptime(),
 		minutes = Math.floor((time % (60 * 60)) / 60),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
-var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
+var juswa = moment.tz("Asia/Kolkata").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://imgur.com/a/AIYGbau.jpegv" , "https://imgur.com/a/bnjlRO7.jpeg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇵🇰𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇵🇰
-(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
-
-☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
-
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝘼𝙃𝙈𝘼𝘿 𝙃𝙊𝙊 𝙔𝘼𝙍💔🥀
-
-🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/ahmadali.safdar.52💞🕊️
-
-👋For Any Kind Of Help Contact On Telegram  Username 👉@ahmadalisafdar3 😇
-
-✧══════•❁❀❁•══════✧
-
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
-
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝘼𝙃𝙈𝘼𝘿 𝙃𝙊𝙊 𝙔𝘼𝙍
-
-🥳UPTIME🥳
-
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
-
-⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
-
-✅Thanks for using ${global.config.BOTNAME} Bot🖤
-
-
-🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒𝔸ℍ𝕄𝔸𝔻 ℍ𝕆𝕆 𝕐𝔸ℝ🌿✰✧✧✧✧✦🌸
-┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
-
-
-`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
+["https://i.postimg.cc/WpB6gpR7/Picsart-24-02-02-17-06-18-278.jpg"];
+var callback = () => api.sendMessage({body:`===𝐀𝐇𝐌𝐀𝐃 𝐇𝐎𝐎 𝐘𝐀𝐑'𝙎 𝘽𝙊𝙏===\n\n☄️𝘽𝙊𝙏𝙉𝘼𝙈𝙀☄️ »» ${global.config.BOTNAME}\n🌸𝙋𝙍𝙀𝙁𝙄𝙓🌸  »» ${global.config.PREFIX} ««\n\n🥳𝙐𝙋𝙏𝙄𝙈𝙀🥳\n\n𝑫𝑨𝑻𝑬 𝑨𝑵𝑫 𝑻𝑰𝑴𝑬 \n${juswa}\n\n⚡𝘽𝙊𝙏 𝙄𝙎 𝙍𝙐𝙉𝙉𝙄𝙉𝙂⚡ \n🕛${hours}:${minutes}:${seconds}🕧.
+...
+`,attachment: fs.createReadStream(__dirname + "/cache/juswa1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa1.jpg")); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/juswa1.jpg")).on("close",() => callback());
    };
